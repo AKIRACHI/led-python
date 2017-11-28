@@ -11,4 +11,4 @@ for x in xrange(5):
     time.sleep(2)
     GPIO.output(2,False)
     time.sleep(2)
-GPIO.cleranup()
+GPIO.cleanup()
