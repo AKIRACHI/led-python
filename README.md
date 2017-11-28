@@ -2,7 +2,10 @@
 LED FLASH using python
 
 ## Usage
+
+```
 python lchika.py
+```
 
 ## Installation
 
@@ -11,7 +14,6 @@ git clone https://github.com/Teriyaki-0901/led-python.git
 ```
 
 ## setting
-
 ### setmode
 #### BOARD
 - The GPIO.BOARD option specifies that you are referring to the pins by the number of the pin the the plug
@@ -24,7 +26,7 @@ GPIO.setmode(GPIO.BOARD)
 - The GPIO.BCM option means that you are referring to the pins by the "Broadcom SOC channel" number
 
 ```
-GPIO.setmode(GPIO.CM)
+GPIO.setmode(GPIO.BCM)
 ```
 
 ### pin number
