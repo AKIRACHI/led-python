@@ -5,7 +5,10 @@ LED FLASH using python
 python lchika.py
 
 ## Installation
+
+```
 git clone https://github.com/Teriyaki-0901/led-python.git
+```
 
 ## setting
 
